@@ -22,12 +22,12 @@ export default function StandardImageList() {
   const images = [];
 
   for (let i = 1; i <= 93; i++) {
-    images.push(`../src/assets/gallery/foto_${i}.jpeg`);
+    images.push(`/images/gallery/foto_${i}.jpeg`);
     listItems.push(
-        <ImageListItem key={`../src/assets/gallery/foto_${i}.jpeg`}>
+        <ImageListItem key={`/images/gallery/foto_${i}.jpeg`}>
         <img
-          srcSet={`../src/assets/gallery/foto_${i}.jpeg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-          src={`../src/assets/gallery/foto_${i}.jpeg?w=164&h=164&fit=crop&auto=format`}
+          srcSet={`/images/gallery/foto_${i}.jpeg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+          src={`/images/gallery/foto_${i}.jpeg?w=164&h=164&fit=crop&auto=format`}
           alt={'ByL'}
           loading="lazy"
           onClick={() => openImageViewer(i-1)}

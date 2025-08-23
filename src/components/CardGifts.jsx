@@ -19,7 +19,7 @@ export default function CardGifts() {
                 component="img"
                 height="120"
                 width={1}
-                image="./src/assets/logo/liverpool.png"
+                image="/images/logo/liverpool.png"
                 alt="liverpool"
                 />
             </CardActionArea>
@@ -37,7 +37,7 @@ export default function CardGifts() {
                 component="img"
                 height="120"
                 width={1}
-                image="./src/assets/logo/amazon.png"
+                image="/images/logo/amazon.png"
                 alt="amazon"
                 />
             </CardActionArea>

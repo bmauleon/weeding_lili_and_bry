@@ -23,7 +23,7 @@ export default function Footer() {
                             component="img"
                             sx={{ width: 100}}
                             alt="byl"
-                            src="./src/assets/logo_white.png"
+                            src="/images/logo_white.png"
                             m="auto"
                         />
                     </Typography>
@@ -34,7 +34,7 @@ export default function Footer() {
                             component="img"
                             sx={{ width: 100}}
                             alt="byl"
-                            src="./src/assets/logo_white.png"
+                            src="/images/logo_white.png"
                             m="auto"
                         />
                     </Typography>

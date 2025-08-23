@@ -57,7 +57,7 @@ function DrawerAppBar(props) {
         component="img"
         sx={{ width: 1 }}
         alt="byl"
-        src="./src/assets/logo_white.png"
+        src="/images/logo_white.png"
         disablePadding
       />
       {/* <Divider /> */}
@@ -90,7 +90,7 @@ function DrawerAppBar(props) {
     // Box of principal nav
     <Box sx={{
       display: 'flex',
-      backgroundImage: `url(./src/assets/fondo_mar.jpeg)`,
+      backgroundImage: `url(/images/fondo_mar.jpeg)`,
       backgroundRepeat: "repeat",
       backgroundSize: "none"
     }}>
@@ -116,7 +116,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 50, height: 50 }}
               alt="byl"
-              src="./src/assets/logo_white.png"
+              src="/images/logo_white.png"
               disablePadding
             />
           </Typography>
@@ -130,7 +130,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 60 }}
               alt="byl"
-              src="./src/assets/logo_white.png"
+              src="/images/logo_white.png"
             />
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
@@ -178,7 +178,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile.jpeg"
+              src="/images/principal_mobile.jpeg"
             />
           </Grid>
           <Grid size={{ xs: 12 }} sx={{
@@ -188,7 +188,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_desktop.jpeg"
+              src="/images/principal_desktop.jpeg"
             />
           </Grid>
         </Grid>
@@ -217,7 +217,7 @@ function DrawerAppBar(props) {
                 component="img"
                 sx={{ width: 1, height: 180, maxWidth: 650 }}
                 alt="Date"
-                src="./src/assets/fecha.jpeg"
+                src="/images/fecha.jpeg"
               />
             </Box>
 
@@ -230,12 +230,12 @@ function DrawerAppBar(props) {
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
                       <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Elvia Aguilar Ríos</Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Tomás González González<Box component="img" sx={{ width: 15 }} src="./src/assets/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                     <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
                       <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Gina Peralta De La Vega</Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Jorge Mauleón Barradas<Box component="img" sx={{ width: 15 }} src="./src/assets/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Jorge Mauleón Barradas<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                   </Grid>
                   <Grid size={12}>
@@ -346,7 +346,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile2.jpeg"
+              src="/images/principal_mobile2.jpeg"
             />
           </Grid>
         </Grid>
@@ -361,7 +361,7 @@ function DrawerAppBar(props) {
                 component="img"
                 sx={{ width: 1 }}
                 alt="Vestimenta"
-                src="./src/assets/vestimenta.jpeg"
+                src="/images/vestimenta.jpeg"
               />
             </Grid>
             {/* <Grid size="grow">
@@ -378,7 +378,7 @@ function DrawerAppBar(props) {
                 component="img"
                 sx={{ width: 1 }}
                 alt="Vestimenta"
-                src="./src/assets/vestimenta.jpeg"
+                src="/images/vestimenta.jpeg"
               />
             </Grid>
             <Grid size="grow">
@@ -393,7 +393,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile3.jpeg"
+              src="/images/principal_mobile3.jpeg"
             />
           </Grid>
         </Grid>
@@ -441,7 +441,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile4.jpeg"
+              src="/images/principal_mobile4.jpeg"
             />
           </Grid>
         </Grid>
@@ -534,7 +534,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile5.jpeg"
+              src="/images/principal_mobile5.jpeg"
             />
           </Grid>
         </Grid>
@@ -576,7 +576,7 @@ function DrawerAppBar(props) {
                 component="img"
                 sx={{height: 700 }}
                 alt="Save the date"
-                src="./src/assets/principal_mobile2.jpeg"
+                src="/images/principal_mobile2.jpeg"
               />
             </Grid>
           </Grid>
@@ -589,7 +589,7 @@ function DrawerAppBar(props) {
               component="img"
               sx={{ width: 1 }}
               alt="Save the date"
-              src="./src/assets/principal_mobile6.jpeg"
+              src="/images/principal_mobile6.jpeg"
             />
           </Grid>
         </Grid>

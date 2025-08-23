@@ -223,7 +223,7 @@ export default function VerticalLinearStepper() {
                       <CardMedia
                         component="img"
                         height="140"
-                        image="./src/assets/confirmacion.jpeg"
+                        image="/images/confirmacion.jpeg"
                         alt="byl"
                       />
                       <CardContent>

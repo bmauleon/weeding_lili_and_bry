@@ -12,13 +12,13 @@ export default function CommentsCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          image="./src/assets/principal_comments_mobile.jpeg"
+          image="/images/principal_comments_mobile.jpeg"
           alt="Sus mejores deseos"
           sx={{ width: 1, height: { xs: 350, md: 450 }, display: { xs: 'block', sm: 'none' }}}
         />
         <CardMedia
           component="img"
-          image="./src/assets/principal_comments_desktop.jpeg"
+          image="/images/principal_comments_desktop.jpeg"
           alt="Sus mejores deseos"
           sx={{ width: 1, height: { xs: 350, md: 450 }, display: { xs: 'none', sm: 'block' }}}
         />

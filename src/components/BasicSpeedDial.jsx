@@ -21,7 +21,7 @@ export default function BasicSpeedDial() {
         <>
         <audio
             ref={myRef}
-            src="./src/assets/music/song.mp3"
+            src="/music/song.mp3"
         />
         {audioStatus ? (
             <SpeedDial
