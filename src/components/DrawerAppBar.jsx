@@ -251,13 +251,13 @@ function DrawerAppBar(props) {
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
-                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE ARRAS</p></Typography>
+                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE LAZO</p></Typography>
                     <Typography align='center' variant='h6' fontWeight='fontWeightBold'>María Idalia Nava Arrollo</Typography>
                     <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Marco Antonio Peralta De La Vega</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
-                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE LAZO</p></Typography>
+                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE ARRAS</p></Typography>
                     <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Julissa Peralta Reyes</Typography>
                     <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Francisco Alan Peralta Reyes</Typography>
                   </Grid>
