@@ -29,14 +29,14 @@ export default function VerticalLinearStepper() {
 
   const searchFamily = async (lastnames) => {
 
-    const response = await fetch('https://wedding-liliandbry-45fd821e9dbd.herokuapp.com/list/'+lastnames.toUpperCase(), {
+    const response = await fetch('http://localhost:5000/list/'+lastnames.toUpperCase(), {
       method: `GET`,
     })
     setFamilyData(await response.json())
   };
 
   const confirmFamilyMembers = async (ids) => {
-    const response = await fetch('https://wedding-liliandbry-45fd821e9dbd.herokuapp.com/confirm/', {
+    const response = await fetch('http://localhost:5000/confirm/', {
       method: `POST`,
       headers: { "Content-Type": `application/json` },
       body: JSON.stringify(ids),
@@ -45,7 +45,7 @@ export default function VerticalLinearStepper() {
   };
 
   const confirmFamilyComments = async (comments, lastname) => {
-    const response = await fetch('https://wedding-liliandbry-45fd821e9dbd.herokuapp.com/comments/', {
+    const response = await fetch('http://localhost:5000/comments/', {
       method: `POST`,
       headers: { "Content-Type": `application/json` },
       body: JSON.stringify({

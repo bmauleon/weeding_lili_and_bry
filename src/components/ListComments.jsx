@@ -13,7 +13,7 @@ import Box from '@mui/material/Box';
 export default function ListComments() {
     const [comments, setComments] = useState([]);
     const searchComments = async () => {
-        const response = await fetch('https://wedding-liliandbry-45fd821e9dbd.herokuapp.com/list_comments/', {
+        const response = await fetch('http://localhost:5000/list_comments/', {
         method: `GET`,
         })
         setComments(await response.json())
