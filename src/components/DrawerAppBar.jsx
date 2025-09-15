@@ -30,6 +30,7 @@ import WomanIcon from '@mui/icons-material/Woman';
 import ManIcon from '@mui/icons-material/Man';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 import CardGifts from './CardGifts';
+import GodPartners from './GodPartners';
 
 const drawerWidth = 240;
 const navItems = ['15-03-2026', 'Ubicación', 'Vestimenta', 'Hospedajes', 'Galería', 'Deseos', 'Mesa de regalos'];
@@ -221,7 +222,7 @@ function DrawerAppBar(props) {
               />
             </Box>
 
-            <Box pt={5}>
+            <Box pt={5} sx={{ display: { xs: 'none', sm: 'block' } }}>
               <Grid container pb={2}>
                 <Grid size="grow">
                 </Grid>
@@ -229,60 +230,90 @@ function DrawerAppBar(props) {
                   <Grid container>
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Elvia Aguilar Ríos</Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6'>Elvia Aguilar Ríos</Typography>
+                      <Typography align='center' variant='h6'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                     <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Gina Peralta De La Vega</Typography>
-                      <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Jorge Mauleón Barradas<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6'>Gina Peralta De La Vega</Typography>
+                      <Typography align='center' variant='h6'>Jorge Mauleón Barradas<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE VELACIÓN</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Guillermina López Aguilar</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Rodrigo Luna Fonseca</Typography>
+                    <Typography align='center' variant='h6'>Guillermina López Aguilar</Typography>
+                    <Typography align='center' variant='h6'>Rodrigo Luna Fonseca</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>MADRINA DE ANILLOS</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Jaqueline Abigail González Aguilar</Typography>
+                    <Typography align='center' variant='h6'>Jaqueline Abigail González Aguilar</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE LAZO</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>María Idalia Nava Arrollo</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Marco Antonio Peralta De La Vega</Typography>
+                    <Typography align='center' variant='h6'>María Idalia Nava Arrollo</Typography>
+                    <Typography align='center' variant='h6'>Marco Antonio Peralta De La Vega</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE ARRAS</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Julissa Peralta Reyes</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Francisco Alan Peralta Reyes</Typography>
+                    <Typography align='center' variant='h6'>Julissa Peralta Reyes</Typography>
+                    <Typography align='center' variant='h6'>Francisco Alan Peralta Reyes</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE COJÍN</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Nereida Margot Peralta Marquez</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>José Luis López Aguilar</Typography>
+                    <Typography align='center' variant='h6'>Nereida Margot Peralta Marquez</Typography>
+                    <Typography align='center' variant='h6'>José Luis López Aguilar</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
-                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE ZAPATILLA</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Maricruz Villagomez</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Aldo López Aguilar</Typography>
+                    <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE COPAS</p></Typography>
+                    <Typography align='center' variant='h6'>Maricruz Villagomez Martínez</Typography>
+                    <Typography align='center' variant='h6'>Aldo López Aguilar</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE PASTEL</p></Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Ileana Romano</Typography>
-                    <Typography align='center' variant='h6' fontWeight='fontWeightBold'>Alan Yair Luna López</Typography>
+                    <Typography align='center' variant='h6'>Ileana Romano Godinez</Typography>
+                    <Typography align='center' variant='h6'>Alan Yair Luna López</Typography>
                   </Grid>
                 </Grid>
                 <Grid size="grow">
                 </Grid>
               </Grid>
+            </Box>
+
+            <Box pt={5} sx={{ display: { xs: 'block', sm: 'none' } }}>
+                <Grid size="grow">
+                </Grid>
+                <Grid size={{ xs: 12, md: 5 }}>
+                  <Grid container>
+                    <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
+                      <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
+                      <Typography align='center' variant='h6'>Elvia Aguilar Ríos</Typography>
+                      <Typography align='center' variant='h6'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                    </Grid>
+                    <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
+                      <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
+                      <Typography align='center' variant='h6'>Gina Peralta De La Vega</Typography>
+                      <Typography align='center' variant='h6'>Jorge Mauleón Barradas<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                    </Grid>
+                  </Grid>
+                  <Grid container pt={5}>
+                    <Grid size="grow">
+                  </Grid>
+                    <Grid size={10}>
+                      <GodPartners />
+                    </Grid>
+                    <Grid size="grow">
+                    </Grid>
+                  </Grid>
+                </Grid>
+                <Grid size="grow">
+                </Grid>
             </Box>
 
           </Grid>
@@ -493,6 +524,7 @@ function DrawerAppBar(props) {
                   map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.4991031612!2d-99.6704769!3d16.701930600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca426437117ad5%3A0x3ab3939fec3c017b!2sHotel%20Mishol%20Bodas%20%26%20Beach%20Club%20Acapulco%20Diamante!5e0!3m2!1ses-419!2smx!4v1755138851457!5m2!1ses-419!2smx'
                   phone='744-239-9010'
                   reservations='https://www.mishol.com/'
+                  extras=''
               />
             </Grid>
             <Grid size={{ xs: 12, md: 3 }} p={2}>
@@ -503,6 +535,7 @@ function DrawerAppBar(props) {
                   map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.62591846972!2d-99.6447251!3d16.6955927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca436a32195051%3A0x41a48100f20f0adc!2sMu%C3%BAnek%20Hotel%20Boutique%20Art%20%26%20Spa!5e0!3m2!1ses-419!2smx!4v1755139413307!5m2!1ses-419!2smx'
                   phone='744-105-6347'
                   reservations='https://muunekhotel.com/'
+                  extras='Utiliza el código Liliana&Bryant al realizar tu reservación para obtener un 10% de descuento.'
               />
             </Grid>
             <Grid size={{ xs: 12, md: 3 }} p={2}>
@@ -513,6 +546,7 @@ function DrawerAppBar(props) {
                   map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.700136318548!2d-99.6363233!3d16.691882399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca43f70eaf09d5%3A0x51b2e4f29fcd335d!2sHotel%20Quinta%20Diamante!5e0!3m2!1ses-419!2smx!4v1755139522552!5m2!1ses-419!2smx'
                   phone='744-253-2335'
                   reservations='https://hotelquintadiamante.com/'
+                  extras=''
               />
             </Grid><Grid size={{ xs: 12, md: 3 }} p={2}>
               <ActionAreaCard 
@@ -522,6 +556,7 @@ function DrawerAppBar(props) {
                   map='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3820.6323836105967!2d-99.7603878!3d16.7451846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca5ceee3f34e37%3A0x343ddc4c711fe4d4!2sMar%20Para%C3%ADso%20Queen!5e0!3m2!1ses-419!2smx!4v1755139691907!5m2!1ses-419!2smx'
                   phone='744-4444-5040'
                   reservations='https://www.marparaisoqueen.mx/'
+                  extras=''
               />
             </Grid>
           </Grid>

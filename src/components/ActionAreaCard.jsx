@@ -1,12 +1,11 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import GoogleMap from './GoogleMap';
 
-export default function ActionAreaCard({title, minutes, price, map, phone, reservations}) {
+export default function ActionAreaCard({title, minutes, price, map, phone, reservations, extras, extras_link}) {
   return (
     <Card sx={{ width: 1 }}>
       <CardActionArea>
@@ -29,6 +28,16 @@ export default function ActionAreaCard({title, minutes, price, map, phone, reser
           <Typography variant="body1" sx={{ color: 'text.secondary' }}>
             Web: <a href={reservations} target="_blank">{reservations}</a>
           </Typography>
+          <Typography variant="body1" sx={{ color: 'text.secondary' }}>
+            {extras}
+          </Typography>
+          {extras_link ?
+            <Typography variant="body1" sx={{ color: 'text.secondary' }}>
+              <a href={extras_link} target="_blank">Ver información de cupón</a>
+            </Typography>
+            :
+            ''
+          }
         </CardContent>
       </CardActionArea>
     </Card>
