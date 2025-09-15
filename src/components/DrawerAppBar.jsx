@@ -287,9 +287,10 @@ function DrawerAppBar(props) {
             </Box>
 
             <Box pt={5} sx={{ display: { xs: 'block', sm: 'none' } }}>
+              <Grid container pb={2}>
                 <Grid size="grow">
                 </Grid>
-                <Grid size={{ xs: 12, md: 5 }}>
+                <Grid size={10}>
                   <Grid container>
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
@@ -304,8 +305,8 @@ function DrawerAppBar(props) {
                   </Grid>
                   <Grid container pt={5}>
                     <Grid size="grow">
-                  </Grid>
-                    <Grid size={10}>
+                    </Grid>
+                    <Grid size={12}>
                       <GodPartners />
                     </Grid>
                     <Grid size="grow">
@@ -314,6 +315,7 @@ function DrawerAppBar(props) {
                 </Grid>
                 <Grid size="grow">
                 </Grid>
+              </Grid>
             </Box>
 
           </Grid>
