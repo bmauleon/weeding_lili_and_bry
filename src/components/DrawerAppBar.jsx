@@ -216,7 +216,7 @@ function DrawerAppBar(props) {
             >
               <Box
                 component="img"
-                sx={{ width: 1, maxHeight: 180, minHeight: 150, maxWidth: 650 }}
+                sx={{ width: 1, maxHeight: 180, minHeight: 140, maxWidth: 650 }}
                 alt="Date"
                 src="/images/fecha.jpeg"
               />
