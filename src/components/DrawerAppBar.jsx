@@ -329,6 +329,17 @@ function DrawerAppBar(props) {
               <Typography align='center' variant='h3' p={5}>Ubicación</Typography>
             </Grid>
           </Grid>
+          <Grid container>
+            <Grid size="grow">
+            </Grid>
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Typography align='center' variant='body1' m={5}>
+                La ceremonia religiosa y la recepción se llevarán a cabo en el mismo lugar:
+              </Typography>
+            </Grid>
+            <Grid size="grow">
+            </Grid>
+          </Grid>
           <Grid container pb={2}>
             <Grid size="grow">
             </Grid>
@@ -338,18 +349,6 @@ function DrawerAppBar(props) {
                 text='Carretera Acapulco-Barra Vieja Km30.5, Ent. Potrero - Lomas, 39936 Acapulco de Juárez, Guerrero.'
                 map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.582935836122!2d-99.66003102480218!3d16.697741122305928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca433f386c7f8f%3A0xd80860b0f5b483d5!2sPALMERALES%20BEACH%20CLUB!5e0!3m2!1ses!2smx!4v1748473576234!5m2!1ses!2smx'
               />
-            </Grid>
-            <Grid size="grow">
-            </Grid>
-          </Grid>
-          <Grid container>
-            <Grid size="grow">
-            </Grid>
-            <Grid size={{ xs: 12, md: 5 }}>
-              <Typography align='center' variant='body1' m={5}>
-                Nuestros pequeños invitados también son muy importantes para nosotros, por lo que deseamos que también estén presentes en un día tan importante. 
-                <br></br>Por esta razón pedimos apoyo por parte de los papás con su supervisión en todo momento durante el evento ya que el lugar es a pie de playa.
-              </Typography>
             </Grid>
             <Grid size="grow">
             </Grid>
