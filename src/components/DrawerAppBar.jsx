@@ -353,6 +353,18 @@ function DrawerAppBar(props) {
             <Grid size="grow">
             </Grid>
           </Grid>
+          <Grid container>
+            <Grid size="grow">
+            </Grid>
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Typography align='center' variant='body1' m={5}>
+                Nuestros pequeños invitados también son muy importantes para nosotros, por lo que deseamos que también estén presentes en un día tan importante. 
+                <br></br>Por esta razón pedimos apoyo por parte de los papás con su supervisión en todo momento durante el evento ya que el lugar es a pie de playa.
+              </Typography>
+            </Grid>
+            <Grid size="grow">
+            </Grid>
+          </Grid>
         </Box>
         
         <Box sx={{ display: { xs: 'none', sm: 'block' }, backgroundColor: 'secondary.main' }}>
