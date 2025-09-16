@@ -216,7 +216,7 @@ function DrawerAppBar(props) {
             >
               <Box
                 component="img"
-                sx={{ width: 1, height: 180, maxWidth: 650 }}
+                sx={{ width: 1, maxHeight: 180, minHeight: 150, maxWidth: 650 }}
                 alt="Date"
                 src="/images/fecha.jpeg"
               />
@@ -342,6 +342,18 @@ function DrawerAppBar(props) {
             <Grid size="grow">
             </Grid>
           </Grid>
+          <Grid container>
+            <Grid size="grow">
+            </Grid>
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Typography align='center' variant='body1' m={5}>
+                Nuestros pequeños invitados también son muy importantes para nosotros, por lo que deseamos que también estén presentes en un día tan importante. 
+                <br></br>Por esta razón pedimos apoyo por parte de los papás con su supervisión en todo momento durante el evento ya que el lugar es a pie de playa.
+              </Typography>
+            </Grid>
+            <Grid size="grow">
+            </Grid>
+          </Grid>
         </Box>
         
         <Box sx={{ display: { xs: 'none', sm: 'block' }, backgroundColor: 'secondary.main' }}>
@@ -359,7 +371,7 @@ function DrawerAppBar(props) {
               <Typography align='center' variant='body1' ml={5} mr={5}>
                 Nos complace enormemente contar contigo para un día tan especial como lo será nuestra boda.
                 Para una adecuada organización del evento, te agradeceríamos que confirmaras tu asistencia a más tardar el
-                <Box fontWeight='fontWeightBold' display='inline' color={'primary.main'}> 31 de octubre de 2025.</Box>
+                <Box fontWeight='fontWeightBold' display='inline' color={'primary.main'}> 30 de noviembre de 2025.</Box>
                 <br></br><br></br>En caso de no recibir tu confirmación antes de esa fecha, lamentablemente entenderemos que no podrás acompañarnos,
                 lo cual nos causaría mucha pena, pero respetaremos tu decisión con todo cariño.
                 <br></br><br></br>Esperamos contar con tu presencia y compartir juntos este momento tan importante.
@@ -445,7 +457,7 @@ function DrawerAppBar(props) {
               <Typography align='center' variant='body1' ml={5} mr={5}>
                 Nos complace enormemente contar contigo para un día tan especial como lo será nuestra boda.
                 Para una adecuada organización del evento, te agradeceríamos que confirmaras tu asistencia a más tardar el
-                <Box fontWeight='fontWeightBold' display='inline' color={'primary.main'}> 31 de octubre de 2025.</Box>
+                <Box fontWeight='fontWeightBold' display='inline' color={'primary.main'}> 30 de noviembre de 2025.</Box>
                 <br></br><br></br>En caso de no recibir tu confirmación antes de esa fecha, lamentablemente entenderemos que no podrás acompañarnos,
                 lo cual nos causaría mucha pena, pero respetaremos tu decisión con todo cariño.
                 <br></br><br></br>Esperamos contar con tu presencia y compartir juntos este momento tan importante.
@@ -487,7 +499,7 @@ function DrawerAppBar(props) {
               <Typography align='center' variant='h3' p={5}>Hospedajes</Typography>
             </Grid>
             <Grid size={12}>
-              <Typography align='center' variant='h6' ml={5} mr={5}>
+              <Typography align='center' variant='body1' ml={5} mr={5} mb={5}>
                 Estamos muy emocionados de tenerte con nosotros para esta ocasión tan especial. 
                 <br></br>Para ayudarte a planear tu estancia, te dejamos algunas opciones de hospedaje cercanas y cómodas:
               </Typography>
@@ -511,7 +523,7 @@ function DrawerAppBar(props) {
               <Typography align='center' variant='h3' p={5}>Hospedajes</Typography>
             </Grid>
             <Grid size={12}>
-              <Typography align='center' variant='h6' ml={5} mr={5}>
+              <Typography align='center' variant='body1' ml={5} mr={5} mb={5}>
                 Estamos muy emocionados de tenerte con nosotros para esta ocasión tan especial. 
                 <br></br>Para ayudarte a planear tu estancia, te dejamos algunas opciones de hospedaje cercanas y cómodas:
               </Typography>
@@ -587,7 +599,7 @@ function DrawerAppBar(props) {
             <Grid size="grow">
             </Grid>
             <Grid size={{ xs: 10, md: 12 }}>
-              <Typography align='center' variant='h6' ml={5} mr={5}>
+              <Typography align='center' variant='body1' ml={5} mr={5}>
                 El mejor regalo es compartir este momento tan especial con ustedes.<br></br>
                 Si desean obsequiarnos algo adicional, hemos preparado una mesa de regalos que nos ayudará a comenzar esta nueva etapa juntos.
               </Typography>
@@ -602,7 +614,7 @@ function DrawerAppBar(props) {
           <Grid container>
             <Grid size={6} pr={25} pl={25}>
               <Typography align='center' variant='h3' p={2}>Mesa de regalos</Typography>
-              <Typography align='center' variant='h6' ml={5} mr={5}>
+              <Typography align='center' variant='body1' ml={5} mr={5}>
                 El mejor regalo es compartir este momento tan especial con ustedes.<br></br>
                 Si desean obsequiarnos algo adicional, hemos preparado una mesa de regalos que nos ayudará a comenzar esta nueva etapa juntos.
               </Typography>
