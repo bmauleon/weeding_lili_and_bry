@@ -359,6 +359,9 @@ function DrawerAppBar(props) {
           <Grid container>
             <Grid size={6} p={5}>
               <Typography align='center' variant='h3' p={5}>Ubicación</Typography>
+              <Typography align='center' variant='body1' m={5}>
+                La ceremonia religiosa y la recepción se llevarán a cabo en el mismo lugar:
+              </Typography>
               <ActionAreaCardMap
                 title='Palmerales Beach Club'
                 text='Carretera Acapulco-Barra Vieja Km30.5, Ent. Potrero - Lomas, 39936 Acapulco de Juárez, Guerrero.'
