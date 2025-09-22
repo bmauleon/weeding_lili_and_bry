@@ -59,13 +59,13 @@ export default function GodPartners() {
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE COPAS</p></Typography>
-                    <Typography align='center' variant='h6'>Maricruz Villagomez Martínez</Typography>
-                    <Typography align='center' variant='h6'>Aldo López Aguilar</Typography>
+                    <Typography align='center' variant='h6'>Maricruz Villagómez Martínez</Typography>
+                    <Typography align='center' variant='h6'>Aldo Mario López Aguilar</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE PASTEL</p></Typography>
-                    <Typography align='center' variant='h6'>Ileana Romano Godinez</Typography>
+                    <Typography align='center' variant='h6'>Ileana Romano Godínez</Typography>
                     <Typography align='center' variant='h6'>Alan Yair Luna López</Typography>
                   </Grid>
                 </Grid>

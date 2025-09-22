@@ -231,7 +231,7 @@ function DrawerAppBar(props) {
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
                       <Typography align='center' variant='h6'>Elvia Aguilar Ríos</Typography>
-                      <Typography align='center' variant='h6'>José Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6'>José aás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                     <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
@@ -295,7 +295,7 @@ function DrawerAppBar(props) {
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
                       <Typography align='center' variant='h6'>Elvia Aguilar Ríos</Typography>
-                      <Typography align='center' variant='h6'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6'>José Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                     <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
