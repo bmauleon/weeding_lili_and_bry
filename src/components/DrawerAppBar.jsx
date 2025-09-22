@@ -562,7 +562,9 @@ function DrawerAppBar(props) {
             <Grid size={12}>
               <Typography align='center' variant='body1' ml={5} mr={5} mb={5}>
                 Estamos muy emocionados de tenerte con nosotros para esta ocasión tan especial. 
-                <br></br>Para ayudarte a planear tu estancia, te dejamos algunas opciones de hospedaje cercanas y cómodas:
+                <br></br>Para ayudarte a planear tu estancia, te dejamos algunas opciones de hospedaje cercanas y cómodas.
+                <br></br><br></br>Si lo prefieren, también pueden explorar alternativas por su cuenta a través de plataformas como Airbnb,
+                donde seguramente encontrarán opciones que se ajusten a sus necesidades y preferencias.
               </Typography>
             </Grid>
           </Grid>
