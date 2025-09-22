@@ -33,7 +33,7 @@ import CardGifts from './CardGifts';
 import GodPartners from './GodPartners';
 
 const drawerWidth = 240;
-const navItems = ['15-03-2026', 'Ubicación', 'Vestimenta', 'Hospedajes', 'Galería', 'Deseos', 'Mesa de regalos'];
+const navItems = ['15-03-2026', 'Ubicación', 'Itinerarío', 'Vestimenta', 'Hospedajes', 'Galería', 'Deseos', 'Mesa de regalos'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -231,7 +231,7 @@ function DrawerAppBar(props) {
                     <Grid size={6} sx={{ borderRight: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DE LA NOVIA</p></Typography>
                       <Typography align='center' variant='h6'>Elvia Aguilar Ríos</Typography>
-                      <Typography align='center' variant='h6'>Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
+                      <Typography align='center' variant='h6'>José Tomás González González<Box component="img" sx={{ width: 15 }} src="/images/logo/christian_cross.svg"/></Typography>
                     </Grid>
                     <Grid size={6} sx={{ borderLeft: '2px solid #526534' }}>
                       <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRES DEL NOVIO</p></Typography>
@@ -271,13 +271,13 @@ function DrawerAppBar(props) {
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE COPAS</p></Typography>
-                    <Typography align='center' variant='h6'>Maricruz Villagomez Martínez</Typography>
-                    <Typography align='center' variant='h6'>Aldo López Aguilar</Typography>
+                    <Typography align='center' variant='h6'>Maricruz Villagómez Martínez</Typography>
+                    <Typography align='center' variant='h6'>Aldo Mario López Aguilar</Typography>
                   </Grid>
                   <Grid size={12}>
                     <Divider orientation="vertical" flexItem />
                     <Typography align='center' variant='body3' fontWeight='fontWeightBold' fontSize={20} color={'primary.main'}><p>PADRINOS DE PASTEL</p></Typography>
-                    <Typography align='center' variant='h6'>Ileana Romano Godinez</Typography>
+                    <Typography align='center' variant='h6'>Ileana Romano Godínez</Typography>
                     <Typography align='center' variant='h6'>Alan Yair Luna López</Typography>
                   </Grid>
                 </Grid>
@@ -406,6 +406,53 @@ function DrawerAppBar(props) {
               sx={{ width: 1 }}
               alt="Save the date"
               src="/images/principal_mobile2.jpeg"
+            />
+          </Grid>
+        </Grid>
+
+        <div id='Itinerarío'>
+        <Box sx={{ display: { xs: 'block', sm: 'none' } }} mb={5}>
+          <Grid container>
+            {/* <Grid size="grow">
+            </Grid> */}
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Box
+                component="img"
+                sx={{ width: 1 }}
+                alt="Itinerarío"
+                src="/images/itinerario.jpeg"
+              />
+            </Grid>
+            {/* <Grid size="grow">
+            </Grid> */}
+          </Grid>
+        </Box>
+
+        <Box sx={{ display: { xs: 'none', sm: 'block' } }} id='Itinerarío'>
+          <Grid container>
+            <Grid size="grow">
+            </Grid>
+            <Grid size={{ xs: 10, md: 5 }}>
+              <Box
+                component="img"
+                sx={{ width: 1 }}
+                alt="Itinerarío"
+                src="/images/itinerario.jpeg"
+              />
+            </Grid>
+            <Grid size="grow">
+            </Grid>
+          </Grid>
+        </Box>
+        </div>
+
+        <Grid>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ width: 1, display: { xs: 'block', sm: 'none' } }}>
+            <Box
+              component="img"
+              sx={{ width: 1 }}
+              alt="Save the date"
+              src="/images/principal_mobile_comodin.jpeg"
             />
           </Grid>
         </Grid>
